@@ -11,4 +11,13 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Enums\" />
+      <Folder Include="Exceptions\" />
+      <Folder Include="Models\DAO\" />
+      <Folder Include="Models\DTO\" />
+      <Folder Include="Repositories\Impl\" />
+      <Folder Include="Services\Impl\" />
+    </ItemGroup>
+
 </Project>
