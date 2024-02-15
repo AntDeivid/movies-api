@@ -7,8 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ab3d89d-382f-4b00-aa4c-59f553e0b82d" name="Changes" comment="create project">
+    <list default="true" id="3ab3d89d-382f-4b00-aa4c-59f553e0b82d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,34 +32,35 @@
     <setting file="file://$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cNWWyeqVfLNhfEA5zsiuBJjvIp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/home/deivid/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/home/deivid/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/home/deivid/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/deivid/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/deivid/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/deivid/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="movies-api-back: movies_api_back" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" />
@@ -75,7 +86,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707952553363</updated>
-      <workItem from="1707952556905" duration="1257000" />
+      <workItem from="1707952556905" duration="1592000" />
+      <workItem from="1708020344226" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -85,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707952778393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project structuring">
+      <option name="closed" value="true" />
+      <created>1707953834203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707953834203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project structuring">
+      <option name="closed" value="true" />
+      <created>1707953857410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707953857410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+    <MESSAGE value="project structuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="project structuring" />
   </component>
 </project>
