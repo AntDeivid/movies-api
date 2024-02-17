@@ -9,6 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab3d89d-382f-4b00-aa4c-59f553e0b82d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" afterDir="false" />
@@ -18,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -87,7 +91,11 @@
       <option name="presentableId" value="Default" />
       <updated>1707952553363</updated>
       <workItem from="1707952556905" duration="1592000" />
-      <workItem from="1708020344226" duration="610000" />
+      <workItem from="1708020344226" duration="2251000" />
+      <workItem from="1708045946576" duration="1927000" />
+      <workItem from="1708097311239" duration="195000" />
+      <workItem from="1708118993664" duration="5313000" />
+      <workItem from="1708130617605" duration="6540000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -113,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707953857410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dependencies config">
+      <option name="closed" value="true" />
+      <created>1708021001671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708021001671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +140,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="create project" />
     <MESSAGE value="project structuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="project structuring" />
+    <MESSAGE value="dependencies config" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependencies config" />
   </component>
 </project>
