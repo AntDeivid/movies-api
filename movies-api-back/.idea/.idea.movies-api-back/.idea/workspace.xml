@@ -9,19 +9,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab3d89d-382f-4b00-aa4c-59f553e0b82d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/Review.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/Review.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,9 @@
       <workItem from="1708045946576" duration="1927000" />
       <workItem from="1708097311239" duration="195000" />
       <workItem from="1708118993664" duration="5313000" />
-      <workItem from="1708130617605" duration="6540000" />
+      <workItem from="1708130617605" duration="7369000" />
+      <workItem from="1708174591424" duration="3334000" />
+      <workItem from="1708182402261" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -129,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708021001671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create entities and db context">
+      <option name="closed" value="true" />
+      <created>1708137277528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708137277529</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create entities and db context">
+      <option name="closed" value="true" />
+      <created>1708137332337</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708137332337</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +153,7 @@
     <MESSAGE value="create project" />
     <MESSAGE value="project structuring" />
     <MESSAGE value="dependencies config" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependencies config" />
+    <MESSAGE value="create entities and db context" />
+    <option name="LAST_COMMIT_MESSAGE" value="create entities and db context" />
   </component>
 </project>
