@@ -10,4 +10,6 @@ public interface IGenericRepository<T>
 
     T Update(T obj);
 
+    T Delete(T obj);
+
 }

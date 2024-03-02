@@ -12,26 +12,33 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseClass
         _moviesDbContext = moviesDbContext;
     }
 
-    public IQueryable<T> All()
+    public virtual IQueryable<T> All()
     {
         return _moviesDbContext.Set<T>();
     }
 
-    public T? GetById(Guid id)
+    public virtual T? GetById(Guid id)
     {
         return _moviesDbContext.Set<T>().FirstOrDefault(model => model.Id == id);
     }
 
-    public T Save(T obj)
+    public virtual T Save(T obj)
     {
         _moviesDbContext.Set<T>().Add(obj);
         _moviesDbContext.SaveChanges();
         return obj;
     }
 
-    public T Update(T obj)
+    public virtual T Update(T obj)
     {
         _moviesDbContext.Set<T>().Update(obj);
+        _moviesDbContext.SaveChanges();
+        return obj;
+    }
+
+    public virtual T Delete(T obj)
+    {
+        _moviesDbContext.Set<T>().Remove(obj);
         _moviesDbContext.SaveChanges();
         return obj;
     }
