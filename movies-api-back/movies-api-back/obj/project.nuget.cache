@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/25ibJppuOmtUwwp5egBDTTYWpseaPme4BVIdhMzzmSA6Qke+EtVsBuCfAbTTeFYuPZYEv9pBjdcG6qKnIgatA==",
+  "dgSpecHash": "8B1AQFNDC+s2uRzKJ0TXQ9iT77l7sA5vKgHZblyxtwfKd+hOS9a7SLr3EBjnytGgjAs+7jwvK1CQAZ22E2511Q==",
   "success": true,
   "projectFilePath": "/home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/movies-api-back.csproj",
   "expectedPackageFiles": [
+    "/home/deivid/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/deivid/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/deivid/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "/home/deivid/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

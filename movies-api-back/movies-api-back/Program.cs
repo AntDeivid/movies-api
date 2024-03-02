@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using movies_api_back.Repositories;
+using movies_api_back.Util;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Configuration.AddJsonFile("appsettings.json");
 builder.Services.AddDbContext<MoviesDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddAutoMapper(typeof(MappingConfiguration));
 
 var app = builder.Build();
 

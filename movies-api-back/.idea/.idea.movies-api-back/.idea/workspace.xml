@@ -9,13 +9,28 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab3d89d-382f-4b00-aa4c-59f553e0b82d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/Movie.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/Review.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/Review.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Migrations/MoviesDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Migrations/MoviesDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Repositories/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Repositories/IGenericRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Repositories/IMovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Repositories/IMovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Repositories/Impl/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Repositories/Impl/GenericRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/bin/Debug/net6.0/movies-api-back.dll" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/bin/Debug/net6.0/movies-api-back.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/bin/Debug/net6.0/movies-api-back.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/bin/Debug/net6.0/movies-api-back.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/bin/Debug/net6.0/ref/movies-api-back.dll" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/bin/Debug/net6.0/ref/movies-api-back.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/movies-api-back.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.dll" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/movies-api-back.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/ref/movies-api-back.dll" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/ref/movies-api-back.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/movies-api-back.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/Models/DAO/Movie.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -91,7 +107,12 @@
       <workItem from="1708118993664" duration="5313000" />
       <workItem from="1708130617605" duration="7369000" />
       <workItem from="1708174591424" duration="3334000" />
-      <workItem from="1708182402261" duration="3023000" />
+      <workItem from="1708182402261" duration="3078000" />
+      <workItem from="1708197893053" duration="2056000" />
+      <workItem from="1708543000356" duration="2022000" />
+      <workItem from="1708554446221" duration="2389000" />
+      <workItem from="1709295503336" duration="59000" />
+      <workItem from="1709393069392" duration="4728000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -141,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708137332337</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create repositories">
+      <option name="closed" value="true" />
+      <created>1708185453417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708185453417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +183,7 @@
     <MESSAGE value="project structuring" />
     <MESSAGE value="dependencies config" />
     <MESSAGE value="create entities and db context" />
-    <option name="LAST_COMMIT_MESSAGE" value="create entities and db context" />
+    <MESSAGE value="create repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="create repositories" />
   </component>
 </project>

@@ -40,6 +40,9 @@ namespace moviesapiback.Migrations
                     b.Property<DateOnly>("Premiere")
                         .HasColumnType("date");
 
+                    b.Property<DateTimeOffset>("RegisterAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<string>("Sinopse")
                         .HasColumnType("text");
 
@@ -48,7 +51,7 @@ namespace moviesapiback.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Movies", (string)null);
                 });
 
             modelBuilder.Entity("movies_api_back.Models.DAO.Review", b =>
@@ -66,6 +69,9 @@ namespace moviesapiback.Migrations
                     b.Property<Guid>("MovieId")
                         .HasColumnType("uuid");
 
+                    b.Property<DateTimeOffset>("RegisterAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
@@ -75,7 +81,7 @@ namespace moviesapiback.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("movies_api_back.Models.DAO.User", b =>
@@ -90,6 +96,9 @@ namespace moviesapiback.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("text");
 
+                    b.Property<DateTimeOffset>("RegisterAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<string>("Salt")
                         .HasColumnType("text");
 
@@ -98,7 +107,7 @@ namespace moviesapiback.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("movies_api_back.Models.DAO.Review", b =>
