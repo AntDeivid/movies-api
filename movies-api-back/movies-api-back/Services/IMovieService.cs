@@ -6,7 +6,7 @@ public interface IMovieService
 {
     MovieDto Save(MovieDto movieDto);
     List<MovieDto> GetAll();
-    List<MovieDto> GetByName(string name);
-    MovieDto Update(Guid movieId);
-    MovieDto Delete(Guid movieId);
+    List<MovieDto> GetByName(string name, int page);
+    MovieDto Update(MovieDto movieDto);
+    MovieDto Delete(MovieDto movieDto);
 }

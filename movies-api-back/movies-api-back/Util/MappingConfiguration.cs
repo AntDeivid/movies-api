@@ -10,5 +10,8 @@ public class MappingConfiguration : Profile
     {
         CreateMap<Movie, MovieDto>()
             .ReverseMap();
+
+        CreateMap<User, UserDto>()
+            .ReverseMap();
     }
 }
