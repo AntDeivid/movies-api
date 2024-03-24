@@ -11,9 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.movies-api-back/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Models/DAO/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Models/DAO/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Repositories/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies-api-back/Services/Impl/TokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Services/Impl/TokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies-api-back/Services/Impl/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/movies-api-back/Services/Impl/UserService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +22,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/Repositories/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/movies-api-back/Repositories/MoviesDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/Services/IMovieService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/Services/Impl/MovieService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/deivid/Documents/Programas/movies-api/movies-api-back/movies-api-back/Util/MappingConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/movies-api-back/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -105,6 +100,8 @@
       <workItem from="1711020231800" duration="423000" />
       <workItem from="1711020703344" duration="1277000" />
       <workItem from="1711112991346" duration="3732000" />
+      <workItem from="1711197253692" duration="411000" />
+      <workItem from="1711282923104" duration="4835000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -178,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711021007534</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refact token service">
+      <option name="closed" value="true" />
+      <created>1711197382605</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711197382605</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add user service">
+      <option name="closed" value="true" />
+      <created>1711197492987</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711197492987</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +207,8 @@
     <MESSAGE value="create repositories" />
     <MESSAGE value="add movie service" />
     <MESSAGE value="add token service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add token service" />
+    <MESSAGE value="refact token service" />
+    <MESSAGE value="add user service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user service" />
   </component>
 </project>

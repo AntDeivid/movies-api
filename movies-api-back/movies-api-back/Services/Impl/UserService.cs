@@ -28,16 +28,21 @@ public class UserService : IUserService
 
     public UserDto Update(UserDto userDto)
     {
-        throw new NotImplementedException();
+        var user = _mapper.Map<User>(userDto);
+        var updatedUser = _genericRepository.Update(user);
+        return _mapper.Map<UserDto>(updatedUser);
     }
 
     public UserDto GetByEmail(string email)
     {
-        throw new NotImplementedException();
+        var user = _userRepository.GetByEmail(email);
+        return _mapper.Map<UserDto>(user);
     }
 
     public UserDto Delete(UserDto userDto)
     {
-        throw new NotImplementedException();
+        var user = _mapper.Map<User>(userDto);
+        var deletedUser = _genericRepository.Delete(user);
+        return _mapper.Map<UserDto>(deletedUser);
     }
 }
